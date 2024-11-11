@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+:root{
+    /* Colors */
+    --purple: #6520aa;
+    --dark-purple: #4a177c;
+    --white: #fff;
+
+    /* Fonts */
+    --font-1: "Montserrat", sans-serif;
+}
+body{
+    background-color: #ededed;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100dvh;
+}
+.login{
+   border-radius: 50px;
+    background: #fff;
+    box-shadow:  5px 5px 10px #c1c1c1,
+                 -5px -5px 10px #ffffff;
+    padding: 80px 50px 100px 50px;
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+input{
+    padding: 10px 40px 10px 5px;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: var(--font-1);
+}
+.input-container{
+    position: relative;
+    margin-bottom: 30px;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+button{
+    padding: .5rem 3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: var(--font-1);
+}
+button:hover{
+    background-color: var(--dark-purple);
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--font-1);
+}
+h1{
+    text-align: center;
+    font-family: var(--font-1);
+    font-size: 20px;
+    margin-bottom: 40px;
+}

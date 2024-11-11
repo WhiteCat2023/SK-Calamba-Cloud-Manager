@@ -1,0 +1,35 @@
+.btn-primary{
+    background-color: #6520aa;
+}
+.btn-primary:hover{
+    background-color: #4d1a80;
+}
+.btn-primary:active{
+    background-color: #905ec2 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+body{
+    background-image: url('./assets/bg-purple.jpg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+    /* border-image: fill 0 linear-gradient(
+        transparent,
+        #000
+    ); */
+}
+/* nav, form{
+    background-color: #4a235a;
+    color: #fff;
+} */
+

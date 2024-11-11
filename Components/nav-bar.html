@@ -1,0 +1,22 @@
+            <nav class="navbar navbar-expand justify-content-between ">
+                <button class="toggler-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasWithBackdrop">
+                    <i class="lni lni-align-text-left"></i>
+                </button>
+                <p class="text m-0"><img src="./assets/logo.png" class="sk-logo">SK Calamba</p>
+                <img class="profile-logo shadow btn " style="padding:0 !important;"  src="https://i.pinimg.com/originals/f1/0f/f7/f10ff70a7155e5ab666bcdd1b45b726d.jpg" onclick="toggleMenu()">
+
+                <div class="sub-menu-wrap shadow" id="subMenu">
+                    <div class="sub-menu ">
+                        <div class="user-info d-flex">
+                            <img class="profile-logo me-2" src="https://i.pinimg.com/originals/f1/0f/f7/f10ff70a7155e5ab666bcdd1b45b726d.jpg">
+                            <div class="user-info-text">
+                                <p class="m-0"><?php echo $_SESSION['name']; ?></p>
+                                <p class="m-0 small-faded-text"><?php echo $_SESSION['email']; ?></p>
+                                <p class="m-0 small-faded-text"><?php echo $_SESSION['position']; ?></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <a href="logout.php" class="btn btn-primary w-100">Logout</a>
+                    </div>
+                </div>
+            </nav>
