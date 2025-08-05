@@ -1,4 +1,4 @@
-# SK Cloud – Centralized Admin Control for Smart App Management
+# SK Cloud(Admin-side) – Centralized Admin Control for Smart App Management
 
 SK Cloud is a secure, cloud-based admin web application designed to empower system administrators with full control over the data, content, and user operations of the SK ecosystem. Tailored for internal use only, SK Cloud acts as the central command hub for overseeing app performance, managing user activity, and configuring critical system settings—ensuring a seamless experience for all end users.
 
